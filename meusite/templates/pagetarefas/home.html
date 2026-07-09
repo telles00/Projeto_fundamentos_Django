@@ -7,5 +7,9 @@
 </head>
 <body>
     <h1>Seja bem-vindo {{nome}} !</h1>
+    <ul>
+        <li><a href="{% url 'tarefas:home' %}">Home</a></li>
+        <li><a href="{% url 'tarefas:adicionar' %}">Adicionar Tarefa</a></li>
+    </ul>
 </body>
 </html>
